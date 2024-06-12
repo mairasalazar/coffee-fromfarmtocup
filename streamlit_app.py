@@ -66,7 +66,7 @@ components.html(
 )
 st.write("""How does that translate to the real people involved in coffee production? The income of coffee growers differs substantially from the prices paid for coffee. To have a better idea of what that means within their specific cost of living, we compare the estimated income of a producer with the minimum wage and Big mac index in those countries. """)
 components.html(
-    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Dashboard1' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/CertificationDeforestation/WagesandLivingCost' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
     width=1800, height=790
 )
 st.write("""Unfortunately, increasing certified coffee production is not the solution for everything. Less than half of the coffee produced as certified is actually sold as certified. The rest is sold as normal coffee, at lower prices and lower margins for producers. Colombia is the country that produces, proportionally, the most certified coffee, probably due to its high percentage of small growers. """)
@@ -92,12 +92,12 @@ components.html(
 )
 st.write("""Forget diamonds, coffee might be the real key to happiness! This dashboard suggests coffee consumption and happiness might be linked, but with some regional differences. The data explores the connection of coffee consumption per capita and the score that each country’s population rate their lives from 0 to 10. For hardcore coffee consumers such as Europe and the Americas, a cup of coffee might be a daily source of happiness.  Africa does not show a correlation, as happiness is highly affected by economic conditions. Meanwhile countries in Asia and Oceania are indifferent to this trend as well, probably because they opt for tea instead, (pause) except Lebanon. Maybe finding happiness in coffee is mostly a western habit. """)
 components.html(
-    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Consumption_HappinessCorrelation' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
-    width=1100, height=1300
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/Coffee_Happiness/Consumption_HappinessCorrelation' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=790
 )
 st.write("""This graph compares the top 10 coffee consumers with the bottom 10, in terms of heart disease deaths. While high coffee consumption might appear risky for the heart, the twist is smoking! (hover at Lebanon) The data suggests smoking habits play a big role, urging us to consider the bigger picture of health, while actually suggesting that consuming coffee might lead to a smaller risk of heart diseases. """)
 components.html(
     f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/CoffeeConsumption-HeartDiseaseDeathsRelationshipSmokingFilter' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
-    width=1100, height=1100
+    width=1100, height=790
 )
 st.write("""Thank you for your attention! We hope to have inspired you to go for a coffee today ;)""")

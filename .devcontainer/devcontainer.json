@@ -5,12 +5,12 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "☕_Coffee_Journey.py"
+        "streamlit_app.py"
       ]
     }
   },
   "postAttachCommand": {
-    "server": "streamlit run ☕_Coffee_Journey.py --server.enableCORS false --server.enableXsrfProtection false"
+    "server": "streamlit run streamlit_app.py --server.enableCORS false --server.enableXsrfProtection false"
   },
   "portsAttributes": {
     "8501": {
