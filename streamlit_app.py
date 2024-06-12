@@ -54,7 +54,50 @@ comparison_view = match.group(1)
 st.subheader(f"Interactive View: {selected_view_name}")
 st.write("""THis is a dashboard""")
 components.html(
-    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/{workbook_names[0]}/{comparison_view}' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/CoffeevsTeaConsumption' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
     width=1100, height=1100
 )
-
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/GDPpercapita' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Sankey' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/AveragePriceofaCupofCoffeeinthrWorld' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/CoffeeProd_Evolution' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Dashboard1' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Comparison2' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Factchecker' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/WeightGain' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Anxiety' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Consumption_HappinessCorrelation' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
+components.html(
+    f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/CoffeeConsumption-HeartDiseaseDeathsRelationshipSmokingFilter' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
+    width=1100, height=1100
+)
