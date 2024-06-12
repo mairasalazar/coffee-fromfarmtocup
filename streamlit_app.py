@@ -109,7 +109,7 @@ components.html(
 st.write("""Forget diamonds, coffee might be the real key to happiness! This dashboard suggests coffee consumption and happiness might be linked, but with some regional differences. The data explores the connection of coffee consumption per capita and the score that each country’s population rate their lives from 0 to 10. For hardcore coffee consumers such as Europe and the Americas, a cup of coffee might be a daily source of happiness.  Africa does not show a correlation, as happiness is highly affected by economic conditions. Meanwhile countries in Asia and Oceania are indifferent to this trend as well, probably because they opt for tea instead, (pause) except Lebanon. Maybe finding happiness in coffee is mostly a western habit. """)
 components.html(
     f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/Consumption_HappinessCorrelation' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
-    width=1100, height=2000
+    width=1100, height=2500
 )
 st.write("""This graph compares the top 10 coffee consumers with the bottom 10, in terms of heart disease deaths. While high coffee consumption might appear risky for the heart, the twist is smoking! (hover at Lebanon) The data suggests smoking habits play a big role, urging us to consider the bigger picture of health, while actually suggesting that consuming coffee might lead to a smaller risk of heart diseases. """)
 components.html(
