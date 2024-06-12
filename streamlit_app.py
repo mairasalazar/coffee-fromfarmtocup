@@ -58,7 +58,7 @@ st.subheader("""In this project we will give insights into interesting facts tha
 st.write("""Starting, for a bit of context, we talk about coffee and tea. They have been historical competitors, dividing occidental and oriental societies, with some exceptions, for example, Turkey and the UK blurring the line. """)
 components.html(
     f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/V3_CleanVisualizations/CoffeevsTeaConsumption' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
-    width=1200, height=900
+    width=1200, height=700
 )
 st.write("""Now, we’re going to proceed establishing a difference among producers and consumers of coffee. In the first half of the project, we are going to focus on the producer side and how their so-called ”economy of coffee” functions. To begin with, it is important to see how much difference in wealth is perceived between the main importers, on the left side and the main exporters on the right side. """)
 components.html(
