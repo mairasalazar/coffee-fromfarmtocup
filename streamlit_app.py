@@ -52,7 +52,9 @@ comparison_view = match.group(1)
 
 # Embed the interactive Tableau view.
 st.subheader(f"Interactive View: {selected_view_name}")
+st.write("""THis is a dashboard""")
 components.html(
     f"""<script type='module' src='https://prod-uk-a.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script><tableau-viz id='tableau-viz' src='https://prod-uk-a.online.tableau.com/t/romanrodriguezperez3440ff744c/views/{workbook_names[0]}/{comparison_view}' width='1024' height='808' hide-tabs toolbar='bottom' ></tableau-viz>""",
     width=1100, height=1100
 )
+
